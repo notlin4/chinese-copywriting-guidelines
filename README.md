@@ -35,7 +35,7 @@ Other languages:
 
 > 在 LeanCloud 上，數據儲存是圍繞 `AVObject` 進行的。每個 `AVObject` 都包含了與 JSON 兼容的 key-value 對應的數據。數據是 schema-free 的，你不需要在每個 `AVObject` 上提前指定存在哪些键，只要直接設定對應的 key-value 即可。
 
-例外：「豆瓣FM」等產品名詞，按照官方所定義的格式書寫。
+例外：「豆瓣FM」等產品名詞，依照官方所定義的格式書寫。
 
 ### 中文與數字之間需要增加空格
 
@@ -73,7 +73,7 @@ Other languages:
 
 > 新 MacBook Pro 有 15 % 的 CPU 性能提升。
 
-### 全形標點與其他字符之間不加空格
+### 全形標點與其他字元之間不加空格
 
 正確：
 
@@ -87,7 +87,7 @@ Other languages:
 
 ### `text-spacing` to the rescue?
 
-CSS Text Module Level 4 的 [`text-spacing`](https://www.w3.org/TR/css-text-4/#text-spacing-property) 和 Microsoft 的 [`-ms-text-autospace`](https://msdn.microsoft.com/library/ms531164(v=vs.85).aspx) 可以實現自動為中英文之間增加空白。不過目前並未普及，另外在其他應用場景，例如 macOS、iOS、Windows 等用戶介面目前並不存在這個特性，所以請繼續保持隨手加空格的習慣。
+CSS Text Module Level 4 的 [`text-spacing`](https://www.w3.org/TR/css-text-4/#text-spacing-property) 和 Microsoft 的 [`-ms-text-autospace`](https://msdn.microsoft.com/library/ms531164(v=vs.85).aspx) 可以實現自動為中英文之間增加空白。不過目前並未普及，另外在其他應用場景，例如 macOS、iOS、Windows 等使用者介面目前並不存在這個特性，所以請繼續保持隨手加空格的習慣。
 
 ## 標點符號
 
@@ -169,21 +169,21 @@ CSS Text Module Level 4 的 [`text-spacing`](https://www.w3.org/TR/css-text-4/#t
 
 正確：
 
-> 使用 GitHub 登錄
+> 使用 GitHub 登入
 
 > 我們的客戶有 GitHub、Foursquare、Microsoft Corporation、Google、Facebook, Inc.。
 
 錯誤：
 
-> 使用 github 登錄
+> 使用 github 登入
 
-> 使用 GITHUB 登錄
+> 使用 GITHUB 登入
 
-> 使用 Github 登錄
+> 使用 Github 登入
 
-> 使用 gitHub 登錄
+> 使用 gitHub 登入
 
-> 使用 gｲんĤЦ8 登錄
+> 使用 gｲんĤЦ8 登入
 
 > 我們的客戶有 github、foursquare、microsoft corporation、google、facebook, inc.。
 
@@ -195,7 +195,7 @@ CSS Text Module Level 4 的 [`text-spacing`](https://www.w3.org/TR/css-text-4/#t
 
 > 我們的客戶有 gｲんĤЦ8、ｷouЯƧquﾑгє、๓เςг๏ร๏Ŧt ς๏гק๏гคtเ๏ภn、900913、ƒ4ᄃëв๏๏к, IПᄃ.。
 
-注意：當網頁中需要配合整體視覺風格而出現全部大寫／小寫的情形，HTML 中請使用標準的大小寫規範進行書寫；並通過 `text-transform: uppercase;`／`text-transform: lowercase;` 對表現形式進行定義。
+注意：當網頁中需要配合整體視覺風格而出現全部大寫／小寫的情形，HTML 中請使用標準的大小寫規範進行書寫；並透過 `text-transform: uppercase;`／`text-transform: lowercase;` 對表現形式進行定義。
 
 ### 不要使用不道地的縮寫
 
@@ -215,15 +215,15 @@ CSS Text Module Level 4 的 [`text-spacing`](https://www.w3.org/TR/css-text-4/#t
 
 用法：
 
-> 請 [提交一個 issue](#) 並分配给相關同事。
+> 請 [提交一個 issue](#) 並分配給相關同事。
 
-> 訪問我們網站的最新動態，請 [點擊這裡](#) 進行訂閱！
+> 造訪我們網站的最新動態，請 [點擊這裡](#) 進行訂閱！
 
 對比用法：
 
-> 請[提交一個 issue](#) 並分配给相關同事。
+> 請[提交一個 issue](#) 並分配給相關同事。
 
-> 訪問我們網站的最新動態，請[點擊這裡](#)進行訂閱！
+> 造訪我們網站的最新動態，請[點擊這裡](#)進行訂閱！
 
 ### 簡體中文使用直角引號
 
